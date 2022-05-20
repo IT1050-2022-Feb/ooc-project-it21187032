@@ -27,6 +27,8 @@ Customer::Customer(char uName[],int cID,int tAge,char tMail[],char tAddress[],ch
 }
 Customer::Customer(int fID,char commentT[]){
     comment[0] = new FeedBack(fID,commentT);
+
+  
 }
 void Customer::displayFeedBack() {
     for(int f= 0; f < 1; f++){
