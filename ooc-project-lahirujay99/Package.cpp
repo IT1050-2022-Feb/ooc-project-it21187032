@@ -40,6 +40,7 @@ void Package::displayFeed() {
     cout<<"__Newly Added FeedBack__"<<endl;
         for(int f = 0; f < 1; f++){
             feed[f]->viewFeedBack();
+          
         }
     cout<<endl;
 }
