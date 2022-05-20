@@ -22,6 +22,7 @@ SafariOwner::SafariOwner(char uName[],int sOwnerID,int tAge,char tMail[],char tA
     strcpy(address,tAddress);
     strcpy(phoneNumber,tPhone);
     strcpy(password,pass);
+  
 }
 SafariOwner::SafariOwner(char pName[],int pID,int pDuration,int pPrice){
     package[0] = new Package(pName,pID,pDuration,pPrice);
