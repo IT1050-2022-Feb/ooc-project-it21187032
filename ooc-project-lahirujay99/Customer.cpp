@@ -24,6 +24,9 @@ Customer::Customer(char uName[],int cID,int tAge,char tMail[],char tAddress[],ch
     strcpy(address,tAddress);
     strcpy(phoneNumber,tPhone);
     strcpy(password,pass);
+
+
+  
 }
 Customer::Customer(int fID,char commentT[]){
     comment[0] = new FeedBack(fID,commentT);
