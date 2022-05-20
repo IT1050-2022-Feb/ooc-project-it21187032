@@ -17,6 +17,7 @@ void Payment::displayPayment(){
     cout<<"Payment ID : "<<paymentID<<endl;
     cout<<"Amount : "<<amount<<endl;
     cout<<endl;
+  
 }
 Payment::~Payment() {
     cout<<"Delete Payment Details\n"<<endl;
