@@ -8,7 +8,7 @@ Payment::Payment(char bName[],char cardNo[],int payID,int amountT){
     strcpy(bankName,bName);
     strcpy(bankCardNumber,cardNo);
     paymentID = payID;
-    amount = amountT;
+    amount =   amountT;
 }
 void Payment::displayPayment(){
     cout<<"_____Payment Information_____"<<endl;
