@@ -15,7 +15,10 @@ Package::Package(char pName[],int pID,int pDuration,int pPrice){
     strcpy(packageName,pName);
     packageID = pID;
     packageDuration = pDuration;
-    packagePrice = pPrice;
+    packagePrice =  pPrice ;       
+
+
+  
 }
 Package::Package(char bName[],char cardNumber[],int payID,int amountT){
     Pay[0] = new Payment(bName,cardNumber,payID,amountT);
@@ -24,6 +27,8 @@ void Package::displayPayment() {
     for(int p = 0; p <1; p++){
         Pay[p] ->displayPayment();
     }
+
+  
 }
 void Package::displayPackageDetails(){
     cout<<"__Package Details__"<<endl;
